@@ -26,19 +26,26 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="70" selection-start="1058" selection-end="1058" vertical-scroll-proportion="-20.26923" vertical-offset="0" max-vertical-offset="731">
+            <state line="36" column="42" selection-start="1381" selection-end="1381" vertical-scroll-proportion="-20.346153" vertical-offset="83" max-vertical-offset="918">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="googlemap.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="25" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="googlemap.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/googlemap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="21" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-              <folding>
-                <element signature="n#!!doc;n#GoogleMap#0" expanded="false" />
-              </folding>
+            <state line="22" column="0" selection-start="513" selection-end="513" vertical-scroll-proportion="0.4076655" vertical-offset="23" max-vertical-offset="884">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -46,7 +53,7 @@
       <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/assets/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2057">
+            <state line="107" column="25" selection-start="3598" selection-end="3598" vertical-scroll-proportion="0.0" vertical-offset="1264" max-vertical-offset="2125">
               <folding />
             </state>
           </provider>
@@ -61,10 +68,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="handlebars.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="handlebars.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/lib/handlebars.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.4610849" vertical-offset="306" max-vertical-offset="46801">
+            <state line="32" column="24" selection-start="1283" selection-end="1283" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="46801">
               <folding />
             </state>
           </provider>
@@ -73,7 +80,7 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="30" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0" vertical-offset="91" max-vertical-offset="986">
+            <state line="49" column="5" selection-start="822" selection-end="1972" vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="986">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -95,10 +102,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/www/lib/handlebars.js" />
-        <option value="$PROJECT_DIR$/www/js/googlemap.js" />
         <option value="$PROJECT_DIR$/www/js/app.js" />
+        <option value="$PROJECT_DIR$/www/assets/css/index.css" />
         <option value="$PROJECT_DIR$/www/js/index.js" />
         <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/js/googlemap.js" />
       </list>
     </option>
   </component>
@@ -203,6 +211,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gmap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gmap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gmap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gmap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -247,7 +295,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -299,41 +347,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/assets/css/index.css">
+    <entry file="file://$PROJECT_DIR$/www/lib/handlebars.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2057">
+        <state line="32" column="24" selection-start="1283" selection-end="1283" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="46801">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/googlemap.js">
+    <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="21" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <folding>
-            <element signature="n#!!doc;n#GoogleMap#0" expanded="false" />
-          </folding>
+        <state line="10" column="25" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
+    <entry file="file://$PROJECT_DIR$/www/assets/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="70" selection-start="1058" selection-end="1058" vertical-scroll-proportion="-20.26923" vertical-offset="0" max-vertical-offset="731">
+        <state line="107" column="25" selection-start="3598" selection-end="3598" vertical-scroll-proportion="0.0" vertical-offset="1264" max-vertical-offset="2125">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="30" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0" vertical-offset="91" max-vertical-offset="986">
+        <state line="49" column="5" selection-start="822" selection-end="1972" vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="986">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/lib/handlebars.js">
+    <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.4610849" vertical-offset="306" max-vertical-offset="46801">
+        <state line="36" column="42" selection-start="1381" selection-end="1381" vertical-scroll-proportion="-20.346153" vertical-offset="83" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/googlemap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="513" selection-end="513" vertical-scroll-proportion="0.4076655" vertical-offset="23" max-vertical-offset="884">
           <folding />
         </state>
       </provider>

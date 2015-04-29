@@ -6,7 +6,7 @@ function GoogleMap(){
     this.initialize = function(){
         var map = showMap();
         addMarkersToMap(map);
-        console.log('init');
+
     }
 
     var showMap = function(){
@@ -30,7 +30,7 @@ function GoogleMap(){
             var crd = pos.coords;
             lat = crd.latitude;
             long = crd.longitude;
-            console.log(lat);
+
             var latitudeAndLongitudeOne = new google.maps.LatLng(lat, long);
 
             var markerOne = new google.maps.Marker({

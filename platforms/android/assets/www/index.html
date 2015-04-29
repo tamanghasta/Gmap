@@ -8,24 +8,41 @@
 
 
         <link href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css" rel="stylesheet" type="text/css" />
-
-
         <title>CFA Geolocation</title>
     </head>
     <body>
 
-        <div id="map_canvas">
+    <h3>PhoneGap-GoogleMaps-Plugin</h3>
+    <div  id="map_canvas"></div>
+    <button id="button">Full Screen</button>
 
-        </div>
 
-        <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="lib/jquery.js"></script>
-        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
 
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        <script type="text/javascript" src="js/googlemap.js"></script>
         <script type="text/javascript" src="lib/handlebars.js"></script>
 
-        <script type="text/javascript" src="js/app.js"></script>
-        <script type="text/javascript" src="js/googlemap.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                document.addEventListener("deviceready", onDeviceReady, false);
+                //for testing in Chrome browser uncomment
+                onDeviceReady();
+            });
+
+            //PhoneGap is ready function
+            function onDeviceReady() {
+                var map = new GoogleMap();
+                map.initialize();
+            }
+
+        </script>
+
+        <!--<script type="text/javascript" src="js/app.js"></script>-->
+
+        <!--<script type="text/javascript" src="js/index.js"></script>-->
 
     </body>
 </html>
